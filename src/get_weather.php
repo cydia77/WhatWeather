@@ -11,7 +11,7 @@
  * http://www.gnu.org/licenses/gpl-3.0.en.html
  */
 // your private key
-$yourKey  = "";
+$yourKey  = "dcae48c2037547359d945528220508";
 // if the geolocation or IP options
 $location = isset($_GET["latitude"]) && isset($_GET["longitude"]) && $_GET["latitude"] && $_GET["longitude"] ?
 				 $_GET["latitude"].",".$_GET["longitude"] : $_GET["city"];
